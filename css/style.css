@@ -1,0 +1,30 @@
+.leftside, .rightside {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width:768px) {
+    .leftside, .rightside {
+        height: 100vh;
+    }
+}
+
+.leftside {
+    background-image: url(/assets/jason-leung-xR4JHzr69Og-unsplash.jpg);
+}
+
+.rightside {
+    background-image: url(/assets/Filter-Free-Background.jpg);
+}
+
+.ds_logo {
+    width: 240px;
+    height: 240px;
+}
+
+.ffp_logo {
+    width: 240px;
+    height: 240px;
+}
