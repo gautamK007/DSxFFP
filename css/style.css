@@ -1,3 +1,12 @@
+/* Default Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* First Page */
+
 .leftside, .rightside {
     height: 50vh;
     width: 100%;
@@ -5,21 +14,15 @@
     background-position: center;
 }
 
-@media screen and (min-width:768px) {
-    .leftside, .rightside {
-        height: 100vh;
-    }
-}
-
 .leftside {
-    background-image: url(/assets/jason-leung-xR4JHzr69Og-unsplash.jpg);
+    background-image: url(../images/Deliberate-Studios-Background.jpg);
 }
 
 .rightside {
-    background-image: url(/assets/Filter-Free-Background.jpg);
+    background-image: url(../images/Filter-Free-Background.jpg);
 }
 
-.ds_logo {
+/* .ds_logo {
     width: 240px;
     height: 240px;
 }
@@ -27,4 +30,13 @@
 .ffp_logo {
     width: 240px;
     height: 240px;
+} */
+
+/* Media Queries */
+
+/* 2 Background images */
+@media screen and (min-width:768px) {
+    .leftside, .rightside {
+        height: 100vh;
+    }
 }
