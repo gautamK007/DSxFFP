@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* First Page */
 
 .leftside, .rightside {
@@ -22,15 +23,6 @@
     background-image: url(../images/Filter-Free-Background.jpg);
 }
 
-/* .ds_logo {
-    width: 240px;
-    height: 240px;
-}
-
-.ffp_logo {
-    width: 240px;
-    height: 240px;
-} */
 
 /* Media Queries */
 
