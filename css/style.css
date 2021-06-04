@@ -1,6 +1,4 @@
 @import url("https://dl.dropboxusercontent.com/u/2821967/fonts/proxima-nova.css");
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 @media (min-width: 800px) {
   .col-sm-6 {
     width: 50%;
@@ -28,7 +26,7 @@ html, body {
   min-height: 9em;
   font-size: 2em;
   color: white;
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
 }
 @media(min-width: 800px) {
   .split-pane {
@@ -54,13 +52,13 @@ html, body {
 .split-pane > div i {
   height: 1.3em;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .split-pane > div i {
     display:none;
   }
 }
 .split-pane button, .split-pane a.button {
-font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   background: none;
   border: 1px solid white;
   -moz-border-radius: 5px;
@@ -94,7 +92,7 @@ font-family: "Raleway";
 #split-pane-or {
   font-size: 2em;
   color: white;
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   width: 100%;
   position: absolute;
@@ -137,7 +135,7 @@ font-family: "Raleway";
   vertical-align: baseline;
   top: 0.5em;
   color: white;
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   font-size: 1.4em;
 }
 @media(min-width: 800px) {
@@ -149,3 +147,4 @@ font-family: "Raleway";
 #slogan i {
   height: 0.7em;
 }
+
