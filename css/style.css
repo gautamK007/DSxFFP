@@ -82,10 +82,10 @@ html, body {
   border-color: white;
 	cursor: pointer;
 }
-.music.split-pane button:hover, .split-pane a.button:hover {
+.deliberate.split-pane button:hover, .split-pane a.button:hover {
   color: black;
 }
-.media.split-pane button:hover, .split-pane a.button:hover {
+.filterfree.split-pane button:hover, .split-pane a.button:hover {
   color: black;
 }
 
