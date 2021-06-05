@@ -1,62 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
-        rel="stylesheet" />
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-
-    <!-- Main CSS Files -->
-    <link rel="stylesheet" href="./css/style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSxFFP</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!-- Background Images -->
-    <div class="split-pane col-xs-12 col-sm-6 deliberate">
-        <div>
-            <div class="text-content">
-                <div class="big">DELIBERATE STUDIOS</div>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="index.html">DSxFFP</a>
+
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Toggle Button -->
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <!-- Nav Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About Me
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Deliberate Studios</a></li>
+                            <li><a class="dropdown-item" href="#">Filterfree Photography</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
             </div>
-            <a href="#" class="button">
-                FOR MUSIC
-            </a>
+            <!-- Collapsible wrapper -->
+
         </div>
-    </div>
-    <div class="split-pane col-xs-12 col-sm-6 filterfree">
-        <div>
-            <div class="text-content">
-                <div class="big">FILTER FREE PHOTOGRAPHY</div>
+        <!-- Container wrapper -->
+
+    </nav>
+    <!-- Navbar -->
+
+
+    <div class="wrapper">
+
+        <div class="side left">
+            <div class="image dog"></div>
+            <div class="caption">
+                <h1>Deliberate Studios</h1>
+                <a class="button" href="#">For Music</a>
             </div>
-            <a href="#" class="button">
-                FOR MEDIA
-            </a>
+        </div>
+
+        <div class="side right">
+            <div class="image cat"></div>
+            <div class="caption">
+                <h1>Filter Free Photography</h1>
+                <a class="button" href="#">For Photos</a>
+            </div>
         </div>
     </div>
-    <div id="split-pane-or">
-        <div>
-            <i class="fa fa-close" style="font-size:48px;color:white"></i>
+
+    <footer class="bg-light text-center text-lg-start">
+
+        <div class="text-center text-muted p-3" style="background-color:black;">
+            ©️ 2021 All Rights Reserved:
+            <a class="text-muted" href="https://DSxFFP.com/">DSxFFP.com</a>
         </div>
-    </div>
-    <!-- Background Images -->
 
+    </footer>
 
-    <!-- Bootstrap JS -->
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
