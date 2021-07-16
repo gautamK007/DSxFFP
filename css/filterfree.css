@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: black;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.fab1 {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 3px 3px 40px 0px #05edff;
+  font-size: 50px;
+  line-height: 70px;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
+  transition: all 0.1s ease-in-out;
+}
+
+.fab1:hover {
+  box-shadow: 3px 3px 60px 0px #F3BA13;
+  transform: scale(1.05);
+}
+
+/* Navbar */
+
+a.navbar-brand {
+  font-size: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  font-weight: bold;
+}
+
+/* Navbar */
+
+/* Card */
+
+.card {
+  background: black;
+}
+
+h1 {
+  color: white;
+}
+
+.card-title, .card-text {
+  color: white;
+}
+
+a.btn {
+  background: transparent;
+  color: #fff;
+  border: 0.2px solid #fff;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.icon-color-facebook:hover, .fa-facebook:hover {
+  color: blue;
+  background-color: white;
+  transition: 0.5s ease;
+}
+
+.icon-color-instagram:hover, .fa-instagram:hover {
+  color: rgb(245, 6, 245);
+  background-color: white;
+  transition: 0.7s ease;
+}
+
+.icon-color-youtube:hover, .fa-youtube:hover {
+  color: rgb(245, 6, 6);
+  background-color: white;
+  transition: 0.7s ease;
+}
+
+.icons1 {
+  background: #212529;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem 0;
+}
+
+.icons1 li {
+  list-style-type: none;
+  background: #212529;
+  color: #000;
+  width: 45px;
+  height: 45px;
+  margin: 0 0.5rem;
+  /* border: 3px solid #000;
+    border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.icons1 li:hover {
+  background: #000;
+  color: #000;
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+
+/* Card */
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient( #05edff 70%, #000);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient( #F3BA13 70%, #000);
+  border-radius: 6px;
+}
+
+/* Scrollbar */
+
+dl, ol, ul {
+  margin-bottom: 0px;
+}
