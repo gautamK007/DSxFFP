@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <!---title icon-->
+    <link rel="icon" href="images/head_ico.ico" type="image/icon type">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/videoupload.css">
+    <title>Post Your Videos - Deliberate Studios</title>
+</head>
+
+<body>
+    <!--Main Navigation-->
+    <header>
+        <!-- Navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="
+    box-shadow: 3px 3px 40px 0px #05edff;">
+            <div class="container">
+                <a class="navbar-brand" href="deliberate.html">
+                    <img src="images/headphone.png" alt="" width="30" height="30"
+                        class="d-inline-block align-text-left">
+                    Deliberate Studios
+                </a>
+
+                <!-- Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Toggle Button -->
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-items">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link" href="deliberate.html">Deliberate Page</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link" href="ds_form.html">Fill another form</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
+    <!--Main Navigation-->
+
+    <!-- partial:index.partial.html -->
+    <div class="frame">
+        <p class="text-white text-center mb-5" style="position: absolute; left: 40px;">Note: The Video formats must in
+            "mp4" format</p>
+        <div class="center">
+            <div class="bar"></div>
+            <div class="title">Drop Your Video to upload</div>
+            <div class="dropzone">
+                <div class="content">
+                    <img src="https://100dayscss.com/codepen/upload.svg" class="upload">
+                    <span class="filename"></span>
+                    <input type="file" class="input" accept="video/*">
+                </div>
+            </div>
+            <img src="https://100dayscss.com/codepen/syncing.svg" class="syncing">
+            <img src="https://100dayscss.com/codepen/checkmark.svg" class="done">
+            <div class="upload-btn">Upload Video</div>
+        </div>
+    </div>
+    <p class="text-button text-white text-center mt-5 " style="position: absolute; bottom: 30px;">Not formatted?
+        <a href="https://cloudconvert.com/" class="btn btn-outline-light ms-2" target="_blank">Click here to Convert</a>
+    </p>
+
+    <!-- Bootstrap 5 and Popper JS files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap 5 and Popper JS files -->
+    <!-- partial -->
+    <script src="https://100dayscss.com/codepen/js/jquery.min.js"></script>
+    <script src="js/videoupload.js"></script>
+
+</body>
+
+</html>
